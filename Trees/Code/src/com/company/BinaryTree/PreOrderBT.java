@@ -1,17 +1,21 @@
-package com.company;
+package com.company.BinaryTree;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
-public class BinaryTree {
+public class PreOrderBT {
 
     private TreeNode root;
 
     public static void main(String[] args) {
-        BinaryTree bt = new BinaryTree();
+        PreOrderBT bt = new PreOrderBT();
         bt.createBinaryTree();
-        bt.preOrderRec(bt.root);
-        System.out.println();
-        bt.preOrderIter(bt.root);
+//        bt.preOrderRec(bt.root);
+//        System.out.println();
+//        bt.preOrderIter(bt.root);
+        List<Integer> val = bt.preorderTraversal(bt.root);
+        System.out.println(val);
     }
 
     //iterative pre-order traversal using stack
@@ -29,6 +33,23 @@ public class BinaryTree {
                 stack.push(temp.left);
             }
         }
+    }
+
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> list= new ArrayList<Integer>();
+        if(root==null){
+            return list;
+        }
+        return helper(list,root);
+    }
+    public List<Integer> helper(List list, TreeNode root){
+        if(root == null){
+            return list;
+        }
+        list.add(root.data);
+        helper(list,root.left);
+        helper(list,root.right);
+        return list;
     }
 
     // recursive pre-order traversal
@@ -50,10 +71,10 @@ public class BinaryTree {
         TreeNode fifth = new TreeNode(5);
 
         root = first;
-        first.left = second;
-        first.right = third;
-        second.left = fourth;
-        second.right = fifth;
+//        first.left = second;
+        first.right = second;
+        second.left = third;
+//        second.right = fifth;
     }
 
     class TreeNode{
