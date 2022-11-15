@@ -12,7 +12,6 @@ public class InsertValueInBST {
 
         bst.inOrder();
     }
-
     public void inOrder(){
         inOrder(root);
     }
