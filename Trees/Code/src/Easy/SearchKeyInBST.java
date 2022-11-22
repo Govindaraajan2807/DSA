@@ -1,16 +1,44 @@
-package com.company.BinaryTree;
+package Easy;
 
-public class InsertValueInBST {
+public class SearchKeyInBST {
     private TreeNode root;
 
     public static void main(String[] args) {
-        InsertValueInBST bst = new InsertValueInBST();
+        SearchKeyInBST bst = new SearchKeyInBST();
+
         bst.insert(5);
         bst.insert(3);
         bst.insert(7);
         bst.insert(1);
 
-        bst.inOrder();
+//        System.out.println(bst.isPresent(bst.root, 7).data);
+        System.out.println(search(bst.root, 11));
+
+    }
+    static boolean res = false;
+
+    public static boolean search(TreeNode root, int key){
+        if(root == null){
+            return res;
+        }
+        if( root.data == key ){
+            res = true;
+        }
+        if(key < root.data){
+            return search(root.left,key);
+        } else {
+            return search(root.right, key);
+        }
+    }
+    public TreeNode isPresent(TreeNode root, int key){
+        if(root == null || root.data == key ){
+            return root;
+        }
+        if(key < root.data){
+            return isPresent(root.left,key);
+        } else {
+            return isPresent(root.right, key);
+        }
     }
     public void inOrder(){
         inOrder(root);
@@ -50,4 +78,5 @@ public class InsertValueInBST {
             this.data = data;
         }
     }
+
 }
