@@ -13,8 +13,8 @@ public class InorderBt {
         bt.createBinaryTree();
 //        bt.inOrderRec(bt.root);
 //        bt.inOrderIter(bt.root);
-        List<Integer> val = bt.inOrderRecList(bt.root);
-        System.out.println(val);
+        bt.inOrderIter(bt.root);
+//        System.out.println(val);
     }
 
     // iterative in-order traversal
