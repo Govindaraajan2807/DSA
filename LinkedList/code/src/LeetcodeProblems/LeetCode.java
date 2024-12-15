@@ -1,8 +1,6 @@
 package LeetcodeProblems;
 
 
-import LinkedList.LL;
-
 public class LeetCode {
     public static void main(String[] args) {
         LeetCode nodeA = new LeetCode();
@@ -176,6 +174,149 @@ public class LeetCode {
 //        head = prev;
         return prev;
     }
+
+    // delete duplicates
+    public void duplicates(){
+        ListNode node = head;
+        while(node.next != null){
+            if(node.val == node.next.val){
+                node.next = node.next.next;
+                size--;
+            } else{
+                node = node.next;
+            }
+        }
+        tail = node;
+        tail.next = null;
+    }
+
+    public ListNode reverseBetween(ListNode head, int left, int right) {
+        ListNode prev = null;
+        ListNode current = head;
+
+        for (int i=0; current != null && i<left-1;i++){
+            prev = current;
+            current = current.next;
+        }
+
+        ListNode last = prev;
+        ListNode newEnd = current;
+        ListNode next = current.next;
+
+        for(int i=0 ; current != null && i < right - left + 1; i++){
+            current.next = prev;
+            prev = current;
+            current = next;
+            if(next != null){
+                next = next.next;
+            }
+        }
+        if(last != null){
+            last.next = prev;
+        } else {
+            head = prev;
+        }
+        newEnd.next = current;
+        return head;
+    }
+
+    public boolean isPalindromeTest(ListNode head){
+
+        //find middle
+        ListNode mid =  getMiddle(head);
+
+        //reverse mid to last
+        ListNode secondHead =  reverseII(mid);
+        ListNode reverseHead = secondHead;
+        ListNode firstHead = head;
+        while(head != null && secondHead != null){
+            if(head.val != secondHead.val)
+                break;
+            head = head.next;
+            secondHead = secondHead.next;
+        }
+        reverseII(reverseHead);
+        if(head == null || secondHead == null )
+            return true;
+        return false;
+
+    }
+
+    private ListNode reverseII(ListNode head) {
+        ListNode prev = null;
+        ListNode current = head;
+        ListNode next = current.next;
+        while(current != null) {
+            current.next = prev;
+            prev = current;
+            current = next;
+            if (next != null) {
+                next = next.next;
+            }
+        }
+        return prev;
+    }
+
+    public ListNode reverseKGroup(ListNode head, int k) {
+
+        if(k <= 1 || head == null){
+            return head;
+        }
+
+        ListNode prev = null;
+        ListNode current = head;
+
+        int length = getLength(head);
+        int count = length/k;
+
+        while(count > 0){
+            ListNode last = prev;
+            ListNode newEnd = current;
+            ListNode next = current.next;
+
+            for(int i=0 ; i < k ; i++){
+                current.next = prev;
+                prev = current;
+                current = next;
+                if(next != null){
+                    next = next.next;
+                }
+            }
+
+            if(last != null){
+                prev.next = last;
+            } else {
+                head = prev;
+            }
+            newEnd.next = current;
+
+            prev = newEnd;
+            count--;
+        }
+        return head;
+    }
+
+    private int getLength(ListNode head){
+        ListNode node = head;
+        int len = 0;
+        while(node != null){
+            node = node.next;
+            len++;
+        }
+        return len;
+    }
+
+    private ListNode getMiddle(ListNode head) {
+        ListNode s = head;
+        ListNode f = head;
+
+        while (f != null && f.next != null) {
+            s = s.next;
+            f = f.next.next;
+        }
+        return s;
+    }
+
 
     public class ListNode {
       int val;

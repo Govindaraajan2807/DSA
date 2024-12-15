@@ -6,7 +6,7 @@ public class BubbleSort {
 
     public static void main(String[] args) {
 	// write your code here
-        int[] arr = {1,2,3,4,5};
+        int[] arr = {1,3,5,2,4};
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }

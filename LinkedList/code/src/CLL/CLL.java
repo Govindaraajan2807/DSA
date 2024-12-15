@@ -17,18 +17,59 @@ public class CLL {
     public int cycleLength(Node head){
         Node fast = head;
         Node slow = head;
-
+        boolean flag = false;
+        Node start = null;
         while(fast != null && fast.next != null){
-            fast = fast.next.next;
             slow = slow.next;
-            if(fast == slow){
-                Node temp = slow;
-                int len = 0;
-                do{
+            fast = fast.next.next;
+
+            if(slow == fast){
+                start = slow;
+                flag = true;
+            }
+            if(flag)
+                break;
+        }
+        slow = start;
+        int len = 1;
+        slow = slow.next;
+        while(slow != start){
+            slow = slow.next;
+            len++;
+        }
+        return len;
+    }
+
+    public Node findFirstCycleNode(){
+        Node f = head;
+        Node s = head;
+        int cycleLength = cycleLength(f,s);
+
+        s = head;
+        while(cycleLength > 0){
+            s = s.next;
+            cycleLength--;
+        }
+        f = head;
+        while(s != f){
+            f = f.next;
+            s = s.next;
+        }
+        return s;
+    }
+
+    public int cycleLength(Node f, Node s){
+        int cycleLength = 0;
+        while(f != null && f.next != null){
+            s = s.next;
+            f = f.next.next;
+            if(s == f){
+                Node temp = s;
+                do {
                     temp = temp.next;
-                    len++;
-                } while(temp != slow);
-                return len;
+                    cycleLength++;
+                }while(temp != s);
+                return cycleLength;
             }
         }
         return 0;

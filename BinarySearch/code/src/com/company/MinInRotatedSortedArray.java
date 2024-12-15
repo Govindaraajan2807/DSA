@@ -40,8 +40,7 @@ public class MinInRotatedSortedArray {
                 return mid-1;
             } else if(end == mid){
                 return mid;
-            }
-            else if(arr[mid] < arr[start]){
+            } else if(arr[mid] < arr[start]){
                 end = mid-1;
             } else {
                 start = mid+1;

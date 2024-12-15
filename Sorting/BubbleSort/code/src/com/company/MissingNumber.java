@@ -9,10 +9,39 @@ package com.company;
  */
 public class MissingNumber {
     public static void main(String[] args) {
-
+        int[] nums = {9,6,4,2,3,5,7,0,1};
+        int ans = missingNumber(nums);
+        System.out.println(ans);
     }
-    public int missingNumber(int[] nums) {
+
+    public static int missingNumber(int[] nums) {
         int i = 0;
+        while(i < nums.length) {
+            int correctIndex = nums[i];
+            if (nums[i] < nums.length && nums[i] != nums[correctIndex]) {
+                swap(nums, correctIndex, i);
+            } else {
+                i++;
+            }
+        }
+
+        for(int j=0 ; j<nums.length; j++){
+            if(nums[j] != j){
+                return j;
+            }
+        }
+        return nums.length;
+    }
+    public static void swap(int[] arr, int i, int j){
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
+
+
+/*
+ int i = 0;
         while(i < nums.length){
             int correctIndex = nums[i]; // to be considered imagining array is sorted
             if(nums[i] < nums.length && nums[i] != nums[correctIndex]){ //since i starts with 0, we need to check if a[i]<array length
@@ -27,10 +56,4 @@ public class MissingNumber {
             }
         }
         return nums.length;
-    }
-    public void swap(int[] arr, int i, int j){
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
-}
+ */

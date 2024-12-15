@@ -5,8 +5,9 @@ import java.util.ArrayList;
 public class SubsetPermutations {
     public static void main(String[] args) {
 //        permutation("","abc");
-        ArrayList<String> ans = permutationList("","abc");
-        System.out.println(ans);
+//        ArrayList<String> ans = permutationList("","abc");
+//        System.out.println(ans);
+        permutation("","abc");
     }
 
     public static void permutation(String p, String up){
@@ -14,11 +15,11 @@ public class SubsetPermutations {
             System.out.println(p);
             return;
         }
-        char ch = up.charAt(0);
-        for(int i=0; i <= p.length(); i++){
+        char ch =  up.charAt(0);
+        for(int i=0; i<=p.length();i++){
             String first = p.substring(0,i);
             String second = p.substring(i,p.length());
-            permutation(first+ch+second,up.substring(1));
+            permutation(first + ch + second, up.substring(1));
         }
     }
 

@@ -13,12 +13,12 @@ public class FindInMountain {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,3,1};
         System.out.println("Pivot position : "+peakElementInMountain(arr) +" value : "+ arr[peakElementInMountain(arr)]);
-        int target = 1;
+        int target = 3;
         int ans = search(arr,target);
         System.out.println(ans);
     }
 
-    public static int orderAgnosticSearc(int[] arr, int start, int end, int target){
+    public static int orderAgnosticSearch(int[] arr, int start, int end, int target){
 //        int start = 0;
 //        int end = arr.length-1;
 
@@ -46,12 +46,12 @@ public class FindInMountain {
 
     static int search(int[] arr, int target){
         int peak = peakElementInMountain(arr);
-        int firstTry = orderAgnosticSearc(arr,0,peak,target);
+        int firstTry = orderAgnosticSearch(arr,0,peak,target);
         if(firstTry != -1){
             return firstTry;
         }
         // search in the second half
-        int secondTry = orderAgnosticSearc(arr,peak+1,arr.length-1,target);
+        int secondTry = orderAgnosticSearch(arr,peak+1,arr.length-1,target);
         if(secondTry!=-1){
             return secondTry;
         }
@@ -62,7 +62,7 @@ public class FindInMountain {
         int start = 0;
         int end = arr.length;
 
-        while(start < end){
+        while(start <= end){
             int mid = start + (end-start)/2;
             if(arr[mid] > arr[mid+1]){
                 // descending order

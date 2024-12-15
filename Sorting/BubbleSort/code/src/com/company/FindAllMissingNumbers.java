@@ -18,9 +18,9 @@ public class FindAllMissingNumbers {
         int i = 0;
         while( i<arr.length){
             int correct = arr[i]-1;
-            if( arr[i]!=arr[correct]){ //since it is 1 - N no need to check a[i] < array length
-                swap(arr, i, correct);
-            } else{
+            if(arr[i] != arr[correct]){
+                swap(arr,i,correct);
+            } else {
                 i++;
             }
         }

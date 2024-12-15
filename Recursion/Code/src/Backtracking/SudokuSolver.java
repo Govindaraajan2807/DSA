@@ -27,7 +27,7 @@ public class SudokuSolver {
         int col = -1;
         int n = board.length;
 
-        boolean emptyLeft = true;
+        boolean noEmptyLeft = true;
 
         // replacing the row, col in the arguments
         for(int i=0; i < n; i++){
@@ -35,15 +35,15 @@ public class SudokuSolver {
                 if(board[i][j] == 0){
                     row = i;
                     col = j;
-                    emptyLeft = false;
+                    noEmptyLeft = false;
                     break;
                 }
             }
-            if(!emptyLeft){
+            if(!noEmptyLeft){
                 break;
             }
         }
-        if(emptyLeft){
+        if(noEmptyLeft){
             //sudoku is solved
             return true;
         }

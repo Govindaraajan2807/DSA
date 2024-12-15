@@ -2,7 +2,9 @@ package com.company.easy;
 
 public class SumOfDigits {
     public static void main(String[] args) {
-        System.out.println(sum(1234));
+        int[][] arr = new int[4][3];
+        System.out.println(arr.length);
+//        System.out.println(sum(1234));
     }
     static int sum(int n){
         if(n==0){

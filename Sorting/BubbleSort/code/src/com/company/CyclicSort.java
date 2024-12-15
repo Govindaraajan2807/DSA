@@ -10,9 +10,9 @@ public class CyclicSort {
     }
     static void cyclicSort(int[] arr){
         int i = 0;
-        while( i < arr.length){
-            int index = arr[i]-1;
-            if(arr[i] != arr[index]){
+        while(i < arr.length){ //
+            int index = arr[i]-1; //2
+            if(arr[i] != arr[index]){ // 3 != 1
                 swap(arr,i,index);
             } else {
                 i++;

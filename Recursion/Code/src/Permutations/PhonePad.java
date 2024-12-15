@@ -13,12 +13,10 @@ public class PhonePad {
             System.out.println(p);
             return;
         }
-
         int digit = up.charAt(0) - '0';
-
-        for (int i=(digit-1)*3; i < digit*3; i++){
+        for(int i=(digit-1)*3 ; i < digit*3; i++){
             char ch = (char) ('a' + i);
-            pad(p+ch,up.substring(1));
+            pad(p+ch, up.substring(1));
         }
     }
 

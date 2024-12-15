@@ -35,6 +35,19 @@ public class LL {
         System.out.println(getIntersectionNode(first,second));
     }
 
+    public void reverse(Node node){
+        if(node == tail){
+            head = tail;
+            return;
+        }
+
+        reverse(node.next);
+        tail.next = node;
+        tail = node;
+        tail.next = null;
+
+    }
+
     public static Node getIntersectionNode(LL listA, LL listB) {
 
         Node tempA = listA.head;
