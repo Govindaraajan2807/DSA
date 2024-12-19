@@ -46,4 +46,30 @@ public class AverageOfLevels {
         }
         return result;
     }
+
+    public List<Double> averageOfLevels2(TreeNode root){
+        List<Double> result = new ArrayList<>();
+        if(root == null){
+            return result;
+        }
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()){
+            double sum = 0;
+            int size = queue.size();
+            for(int i=0;i<size;i++){
+                TreeNode currentNode = queue.poll();
+                sum += currentNode.val;
+                if(currentNode.left != null){
+                    queue.add(currentNode.left);
+                }
+                if (currentNode.right != null){
+                    queue.add(currentNode.right);
+                }
+            }
+            double average = sum/size;
+            result.add(average);
+        }
+        return result;
+    }
 }

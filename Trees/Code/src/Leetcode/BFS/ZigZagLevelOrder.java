@@ -44,10 +44,10 @@ public class ZigZagLevelOrder {
                     TreeNode currentNode = deque.pollLast();
                     list.add(currentNode.val);
                     if(currentNode.right != null){
-                        deque.addFirst(currentNode.left);
+                        deque.addFirst(currentNode.right);
                     }
                     if(currentNode.left != null){
-                        deque.addFirst(currentNode.right);
+                        deque.addFirst(currentNode.left);
                     }
                 }
             }

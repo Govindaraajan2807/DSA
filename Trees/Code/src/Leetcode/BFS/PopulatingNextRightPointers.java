@@ -1,5 +1,6 @@
 package Leetcode.BFS;
 
+// https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/
 
 public class PopulatingNextRightPointers {
     class Node {

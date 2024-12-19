@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DSA.iml" filepath="$PROJECT_DIR$/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicPrograming/DynamicPrograming.iml" filepath="$PROJECT_DIR$/DynamicPrograming/DynamicPrograming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Leetcode/Leetcode.iml" filepath="$PROJECT_DIR$/Leetcode/Leetcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedList/LinkedList.iml" filepath="$PROJECT_DIR$/LinkedList/LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QueueImplementation/QueueImplementation.iml" filepath="$PROJECT_DIR$/QueueImplementation/QueueImplementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting/Sorting.iml" filepath="$PROJECT_DIR$/Sorting/Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StackImplementation/StackImplementation.iml" filepath="$PROJECT_DIR$/StackImplementation/StackImplementation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Strings/Strings.iml" filepath="$PROJECT_DIR$/Strings/Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Trees/Trees.iml" filepath="$PROJECT_DIR$/Trees/Trees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TreesByKunal/TreesByKunal.iml" filepath="$PROJECT_DIR$/TreesByKunal/TreesByKunal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/code/code.iml" filepath="$PROJECT_DIR$/BinarySearch/code/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StacksAndQueue/code/code1.iml" filepath="$PROJECT_DIR$/StacksAndQueue/code/code1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BinarySearch/first and last element in array/first and last element in array.iml" filepath="$PROJECT_DIR$/BinarySearch/first and last element in array/first and last element in array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StacksAndQueue/test/test.iml" filepath="$PROJECT_DIR$/StacksAndQueue/test/test.iml" />
+    </modules>
+  </component>
+</project>
