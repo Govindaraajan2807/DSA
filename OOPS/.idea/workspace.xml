@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="08b8be4c-6ca7-409a-ae83-e19e4e5753ed" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Trees/Code/src/com/company/BinaryTree/BoundaryTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/FindInMountain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/FindInMountain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/SearchInRotatedSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/SearchInRotatedSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/XobiRun.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/Xobiclass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/peakIndexInMountain.class" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearch/code/out/production/code/com/company/peakIndexInMountain.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/src/com/company/FindInMountain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearch/code/src/com/company/FindInMountain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/src/com/company/SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearch/code/src/com/company/SearchInRotatedSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BinarySearch/code/src/com/company/peakIndexInMountain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BinarySearch/code/src/com/company/peakIndexInMountain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/code/src/CLL/CLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/code/src/CLL/CLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/code/src/LeetcodeProblems/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/code/src/LeetcodeProblems/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/code/src/LeetcodeProblems/LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/code/src/LeetcodeProblems/LeetCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/code/src/LeetcodeProblems/MaxTwinSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/code/src/LeetcodeProblems/MaxTwinSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/code/src/LeetcodeProblems/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/code/src/LeetcodeProblems/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LinkedList/code/src/LinkedList/LL.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LinkedList/code/src/LinkedList/LL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/Permutations/DiceThrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/Permutations/DiceThrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/Permutations/PhonePad.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/Permutations/PhonePad.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/Permutations/SubsetPermutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/Permutations/SubsetPermutations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/com/company/easy/SumOfDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/com/company/easy/SumOfDigits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/sorting/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/out/production/Code/sorting/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/src/Permutations/DiceThrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/src/Permutations/DiceThrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/src/Permutations/PhonePad.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/src/Permutations/PhonePad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/src/Permutations/SubsetPermutations.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/src/Permutations/SubsetPermutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/src/com/company/easy/SumOfDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/src/com/company/easy/SumOfDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Recursion/Code/src/sorting/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Recursion/Code/src/sorting/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/out/production/code/com/company/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/out/production/code/com/company/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/out/production/code/com/company/DuplicateinArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/out/production/code/com/company/DuplicateinArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/out/production/code/com/company/MissingNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/out/production/code/com/company/MissingNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/out/production/code/com/company/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/out/production/code/com/company/SelectionSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/CyclicSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/CyclicSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/DuplicateinArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/DuplicateinArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/FindAllMissingNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/FindAllMissingNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sorting/BubbleSort/code/src/com/company/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/Code/out/production/Code/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/Code/out/production/Code/com/company/BinaryTree/InorderBt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/Code/out/production/Code/com/company/BinaryTree/InorderBt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/Code/out/production/Code/com/company/BinaryTree/InsertValueInBST$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/Code/out/production/Code/com/company/BinaryTree/InsertValueInBST$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/Code/out/production/Code/com/company/BinaryTree/InsertValueInBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Trees/Code/out/production/Code/com/company/BinaryTree/InsertValueInBST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Trees/Code/src/Test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LQ5iKcoyDKPrnSoeo811YVlT2C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.InnerClass">
+    <configuration name="InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static.InnerClass" />
+      <module name="OOPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static.Main" />
+      <module name="OOPS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StaticBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Static.StaticBlock" />
+      <module name="OOPS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Static.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.InnerClass" />
+        <item itemvalue="Application.StaticBlock" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="08b8be4c-6ca7-409a-ae83-e19e4e5753ed" name="Changes" comment="" />
+      <created>1675790592930</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675790592930</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
