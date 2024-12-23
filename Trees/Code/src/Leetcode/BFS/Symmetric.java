@@ -27,9 +27,9 @@ public class Symmetric {
             TreeNode left = queue.poll();
             TreeNode right = queue.poll();
 
-            if(left.val == right.val) return true;
             if(left == null && right == null) continue;
             if(left == null || right == null) return false;
+            if(left.val != right.val) return false;
 
             queue.add(left.left);
             queue.add(right.right);
