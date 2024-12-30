@@ -16,7 +16,7 @@ public class SubsetPermutations {
             return;
         }
         char ch =  up.charAt(0);
-        for(int i=0; i<=p.length();i++){
+        for(int i=0; i<=p.length();i++){ // <= because ch is being inserted and the length becomes n+1
             String first = p.substring(0,i);
             String second = p.substring(i,p.length());
             permutation(first + ch + second, up.substring(1));
