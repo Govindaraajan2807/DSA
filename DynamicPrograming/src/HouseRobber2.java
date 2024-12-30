@@ -55,7 +55,7 @@ public class HouseRobber2 {
             int notPick = dp[index-1];
             dp[index] = Math.max(pick,notPick);
         }
-        
+
         return dp[nums.length-1] ;
     }
 }
